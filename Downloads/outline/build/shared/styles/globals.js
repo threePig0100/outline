@@ -1,0 +1,13 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _styledComponents = require("styled-components");
+var _styledNormalize = _interopRequireDefault(require("styled-normalize"));
+var _ = require(".");
+var _templateObject;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+var _default = exports.default = (0, _styledComponents.createGlobalStyle)(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  ", "\n\n  * {\n    box-sizing: border-box;\n  }\n\n  html,\n  body {\n    width: 100%;\n    ", "\n    margin: 0;\n    padding: 0;\n    print-color-adjust: exact;\n    -webkit-print-color-adjust: exact;\n    --pointer: ", ";\n  }\n\n  body,\n  button,\n  input,\n  optgroup,\n  select,\n  textarea {\n    font-family: ", ";\n  }\n\n  body {\n    font-size: 16px;\n    line-height: 1.5;\n    color: ", ";\n    overscroll-behavior-y: none;\n    -moz-osx-font-smoothing: grayscale;\n    -webkit-font-smoothing: antialiased;\n    text-rendering: optimizeLegibility;\n  }\n\n  @media (min-width: ", "px) {\n    html,\n    body {\n      min-height: ", ";\n    }\n  }\n\n  @media (min-width: ", "px) and (display-mode: standalone) {\n    body:after {\n      content: \"\";\n      display: block;\n      position: fixed;\n      top: 0;\n      left: 0;\n      right: 0;\n      height: 1px;\n      background: ", ";\n      z-index: ", ";\n    }\n  }\n\n  a {\n    color: ", ";\n    text-decoration: none;\n    cursor: pointer;\n  }\n\n  h1,\n  h2,\n  h3,\n  h4,\n  h5,\n  h6 {\n    font-weight: 500;\n    line-height: 1.25;\n    margin-top: 1em;\n    margin-bottom: 0.5em;\n  }\n  h1 { font-size: 36px; }\n  h2 { font-size: 26px; }\n  h3 { font-size: 20px; }\n  h4 { font-size: 18px; }\n  h5 { font-size: 16px; }\n\n  p,\n  dl,\n  ol,\n  ul,\n  pre,\n  blockquote {\n    margin-top: 1em;\n    margin-bottom: 1em;\n  }\n\n  hr {\n    border: 0;\n    height: 0;\n    border-top: 1px solid ", ";\n  }\n\n  .js-focus-visible :focus:not(.focus-visible) {\n    outline: none;\n  }\n\n  .js-focus-visible .focus-visible {\n    outline-color: ", ";\n    outline-offset: -1px;\n  }\n"])), _styledNormalize.default, props => props.staticHTML ? "" : "height: 100%;", props => props.useCursorPointer ? "pointer" : "default", (0, _.s)("fontFamily"), (0, _.s)("text"), _.breakpoints.tablet, props => props.staticHTML ? "0" : "100vh", _.breakpoints.tablet, props => props.theme.titleBarDivider, _.depths.titleBarDivider, props => props.theme.link, (0, _.s)("divider"), (0, _.s)("accent"));
